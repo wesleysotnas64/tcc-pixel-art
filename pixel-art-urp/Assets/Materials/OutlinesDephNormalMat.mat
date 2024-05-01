@@ -45,10 +45,10 @@ Material:
     - _ActiveNormal: 1
     - _Boolean: 0
     - _ColorThreshold: 0.1
-    - _DepthScale: 5.52
+    - _DepthScale: 6
     - _DepthThreshold: 0.01
     - _NORMALORDEPH: 1
-    - _NormalScale: 2.33
+    - _NormalScale: 5
     - _NormalThreshold: 0.7
     - _OVERLAY: 0
     m_Colors:

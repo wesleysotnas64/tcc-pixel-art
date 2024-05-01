@@ -56,7 +56,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Idle01
-  m_Speed: 0.5
+  m_Speed: 0
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -82,8 +82,8 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Attack01
-  m_Speed: 1
-  m_CycleOffset: 0
+  m_Speed: 0
+  m_CycleOffset: 0.083333336
   m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
@@ -108,7 +108,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Move01
-  m_Speed: 1
+  m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -146,7 +146,7 @@ AnimatorStateMachine:
     m_Position: {x: 300, y: 132, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102857579564521084}
-    m_Position: {x: 312, y: 192, z: 0}
+    m_Position: {x: 310, y: 190, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -156,4 +156,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: -60, y: 108, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 1102835107507857498}
+  m_DefaultState: {fileID: 1102857579564521084}
