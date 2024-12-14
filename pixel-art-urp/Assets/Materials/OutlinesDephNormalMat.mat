@@ -45,11 +45,11 @@ Material:
     - _ActiveNormal: 1
     - _Boolean: 0
     - _ColorThreshold: 0.1
-    - _DepthScale: 6
-    - _DepthThreshold: 0.01
+    - _DepthScale: 0
+    - _DepthThreshold: 0.258
     - _NORMALORDEPH: 1
-    - _NormalScale: 5
-    - _NormalThreshold: 0.7
+    - _NormalScale: 0
+    - _NormalThreshold: 0.49
     - _OVERLAY: 0
     m_Colors:
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}

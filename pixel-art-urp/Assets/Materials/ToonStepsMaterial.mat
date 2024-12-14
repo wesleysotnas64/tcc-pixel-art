@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4573439476706814925
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PixelArtMat
-  m_Shader: {fileID: -6465566751694194690, guid: 9cd5d13ae572f6048b13a23f2b10b74f,
+  m_Name: ToonStepsMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 7a01d65f7d3161d48b74c8800bdbe2fc,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,6 +51,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _PixelSize: 64
-    m_Colors: []
+    - _Especularidade: 1
+    - _IAmbiente: 0.197
+    - _IDifusa: 0.591
+    - _IEspecular: 0.44
+    - _KAmbiente: 0.41
+    - _KDifusa: 0.744
+    - _KEspecular: 0.6
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Tons: 5
+    m_Colors:
+    - _Cor: {r: 0.38942236, g: 1, b: 0.0603773, a: 0}
   m_BuildTextureStacks: []
